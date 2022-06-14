@@ -1,0 +1,1 @@
+# Mxic ©ô§»¹q¤l ªº Cross AppDomain Test.

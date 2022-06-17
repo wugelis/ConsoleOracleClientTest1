@@ -12,7 +12,7 @@ namespace ConsoleOracleClientTest1
     {
         static void Main(string[] args)
         {
-            OracleConnection oraConn = new OracleConnection("Data Source=192.168.137.224:1521/ORCL.MSHOME.NET;User Id=system;Password=GELISpass01;");
+            OracleConnection oraConn = new OracleConnection("Data Source=192.168.137.128:1521/ORCL.MSHOME.NET;User Id=system;Password=GELISpass01;");
 
             try
             {

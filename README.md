@@ -1,1 +1,1 @@
-# Mxic ©ô§»¹q¤l ªº Cross AppDomain Test.
+ï»¿# Mxic æ—ºå®é›»å­ çš„ Cross AppDomain Test.

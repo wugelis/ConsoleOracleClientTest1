@@ -1,1 +1,1 @@
-# Mxic 旺宏電子 的 Cross AppDomain Test.
+# Oracle ManagedDataAccrees 的原生存取 Test.

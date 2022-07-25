@@ -1,14 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleOracleClientTest1", "ConsoleOracleClientTest1\ConsoleOracleClientTest1.csproj", "{02C99505-8603-421A-9D07-BFD8B8086610}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleOracleClientTest1", "ConsoleOracleClientTest1\ConsoleOracleClientTest1.csproj", "{02C99505-8603-421A-9D07-BFD8B8086610}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EBFD3495-A3A2-486F-ACFD-3EDBF12B4CDF}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{78E86BE9-8CC1-4976-9A09-1F3762C24E0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{B32C53C5-3444-486C-9788-089679A1FDDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_OracleGetConnectionString", "Test_OracleGetConnectionString\Test_OracleGetConnectionString.csproj", "{D2E70534-970C-4470-846E-806136EE492E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,9 +26,17 @@ Global
 		{02C99505-8603-421A-9D07-BFD8B8086610}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02C99505-8603-421A-9D07-BFD8B8086610}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02C99505-8603-421A-9D07-BFD8B8086610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2E70534-970C-4470-846E-806136EE492E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2E70534-970C-4470-846E-806136EE492E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2E70534-970C-4470-846E-806136EE492E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2E70534-970C-4470-846E-806136EE492E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02C99505-8603-421A-9D07-BFD8B8086610} = {B32C53C5-3444-486C-9788-089679A1FDDB}
+		{D2E70534-970C-4470-846E-806136EE492E} = {78E86BE9-8CC1-4976-9A09-1F3762C24E0E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E702BFEE-68EC-4D2D-9EC9-954F6E6C8735}
